@@ -28,7 +28,7 @@ The useful result was not a safe-or-unsafe label. It was a repeatable investigat
 
 ### [IT Support Documentation Portfolio](https://github.com/hypnatiq/it-support-documentation-portfolio)
 
-I rebuilt sanitized troubleshooting guides, a service-desk process standard, and an anonymized network-connectivity case study from the way I document support work. The method is consistent: confirm scope, record a baseline, change one condition, validate the original issue, and escalate with useful evidence.
+I rebuilt sanitized troubleshooting guides, a service-desk process standard, and an anonymized network-connectivity case study from the way I document support work. The method is consistent: confirm what is affected, record a baseline, change one condition, validate the original issue, and escalate with useful evidence.
 
 ## How I use AI
 
