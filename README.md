@@ -1,6 +1,6 @@
 # Hanzley Philippeaux
 
-I work in endpoint and systems support. I am building toward junior network engineering by connecting what I already do in production support with deeper hands-on work in routing, switching, packet analysis, segmentation, and network security.
+I work in endpoint and systems support, and I am building toward a junior network engineer role. I connect my production support experience with deeper hands-on work in routing, switching, packet analysis, segmentation, and network security.
 
 My production experience includes Windows endpoint troubleshooting, Microsoft 365 and identity support, Cisco Meraki investigation, DHCP and DNS troubleshooting, cabling and Ethernet pass-through loops, Verifone M400 payment-terminal connectivity, endpoint lifecycle coordination, PuTTY and SSH account support, knowledge-base writing, more than 2,000 documented tickets, and new-hire training.
 
