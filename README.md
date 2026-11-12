@@ -6,6 +6,8 @@ My production experience includes Windows endpoint troubleshooting, Microsoft 36
 
 I use GitHub to show how I investigate problems, test changes, document evidence, and state where the evidence stops.
 
+The projects below are some of the work I have chosen to feature. To view all of my public repositories, visit [my repositories page](https://github.com/hypnatiq?tab=repositories).
+
 ## Networking and Support Projects
 
 ### [Hypnatiq Network Observatory](https://github.com/hypnatiq/hypnatiq-network-observatory)
