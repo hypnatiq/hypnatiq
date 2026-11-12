@@ -12,23 +12,23 @@ I use GitHub to show how I investigate problems, test changes, document evidence
 
 HypNO is my Windows endpoint and network-investigation project. It connects live TCP and UDP activity and imported packet captures to process, service, executable, publisher, signature, destination, and provider context when that evidence is available.
 
-The project shows how I separate local facts from third-party reports, document uncertainty, and support a reviewed Windows Firewall decision without treating one lookup as proof of safety.
+The project shows how I separate local facts from third-party reports, document uncertainty, and support a reviewed Allow or Block decision. After the user decides, HypNO can write a reversible rule to Windows Defender Firewall with Advanced Security and record the change.
 
 ### [Enterprise Home Network Virtual Lab](https://github.com/hypnatiq/enterprise-home-network-virtual-lab)
 
-This lab brings Windows Server identity, DNS, Group Policy, Windows LAPS, OPNsense segmentation, FreeRADIUS EAP-TLS decisions, persistent approved and quarantined clients, and diskless PXE service-response testing into one isolated Hyper-V environment.
+My Enterprise Home Network Virtual Lab is a working virtual version of the network I plan to implement in my home. I use it to practice Windows Server identity, DNS, Group Policy, Windows LAPS, OPNsense segmentation, FreeRADIUS EAP-TLS decisions, client isolation, and PXE service testing while I continue acquiring the physical hardware.
 
-I defined the architecture, learning goals, isolation rules, validation gates, and acceptance decisions. I reviewed the configurations, failed tests, corrections, screenshots, hashes, and final evidence before accepting each stage. It is a virtual learning environment, not a claim of physical NAC or production network ownership.
+The virtual design models the firewall, managed switch, wireless access point, server, backup storage, UPS, and wired connections planned for the later physical build. Exact new product models are still being selected. I document the architecture, failed tests, corrections, screenshots, hashes, and acceptance results so the lab can guide that installation.
 
 ### [AstrasGZ Network Traffic Analysis Case Study](https://github.com/hypnatiq/network-traffic-analysis-case-study)
 
-I captured and reviewed three controlled Windows network sessions, imported 120,656 packet records into a local Flask and SQLite viewer, and filtered the evidence by protocol, port, destination, and time.
+I created this case study to understand what traffic left my Windows PC while I used the AstrasGZ client. I captured and reviewed three controlled sessions, imported 120,656 packet records into a local Flask and SQLite viewer, and filtered the evidence by protocol, port, destination, and time.
 
-The useful result was not a safe-or-unsafe label. It was a repeatable investigation method and a clear record of what the packet capture could and could not establish.
+The result is a repeatable investigation method and a clear record of what was visible, what remained unresolved, and which evidence would be needed next.
 
 ### [IT Support Documentation Portfolio](https://github.com/hypnatiq/it-support-documentation-portfolio)
 
-I rebuilt sanitized troubleshooting guides, a service-desk process standard, and an anonymized network-connectivity case study from the way I document support work. The method is consistent: confirm what is affected, record a baseline, change one condition, validate the original issue, and escalate with useful evidence.
+I built this portfolio to show how I troubleshoot and document support work so another technician can continue without starting over. It includes sanitized runbooks, a service-desk process standard, and an anonymized network-connectivity case study built around the same method I use: confirm what is affected, record a baseline, change one condition, validate the original issue, and escalate with useful evidence.
 
 ## How I use AI
 
@@ -45,5 +45,6 @@ I do not treat generated output as proof. I keep requirements, privacy limits, e
 
 I am continuing to build practical depth in routing, switching, TCP/IP, DHCP, DNS, firewall policy, packet analysis, network access control, and network troubleshooting. I will add certifications when they are earned, not before.
 
-These repositories are project and lab evidence. They support my networking direction without turning guided lab work into production ownership or replacing the support experience I already have.
+These repositories show how I apply my production support experience while building deeper practical skills in network engineering.
+
 
