@@ -41,11 +41,13 @@
       .name { font: 700 55px/1.1 -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; letter-spacing: -1.2px; }
       .role { font: 600 22px/1.35 -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; letter-spacing: 0.1px; }
       .vortex { transform-box: view-box; transform-origin: 512px 512px; animation: rotate-vortex 13s linear infinite; }
-      .core-pulse { transform-box: view-box; transform-origin: 512px 512px; animation: pulse-core 3.8s ease-in-out infinite; }
+      .core-pulse { transform-box: view-box; transform-origin: 512px 512px; transform: scale(0.35); animation: pulse-core 3.8s ease-in-out infinite; }
+      .core-glow { opacity: 0.58; animation: pulse-glow 3.8s ease-in-out infinite; }
       @keyframes rotate-vortex { to { transform: rotate(360deg); } }
-      @keyframes pulse-core { 0%, 100% { opacity: 0.72; transform: scale(0.94); } 50% { opacity: 1; transform: scale(1.06); } }
+      @keyframes pulse-core { 0%, 100% { transform: scale(0.35); } 50% { transform: scale(1.06); } }
+      @keyframes pulse-glow { 0%, 100% { opacity: 0.58; } 50% { opacity: 0.95; } }
       @media (prefers-reduced-motion: reduce) {
-        .vortex, .core-pulse { animation: none; }
+        .vortex, .core-pulse, .core-glow { animation: none; }
       }
     </style>
   </defs>
@@ -71,7 +73,7 @@
       <path d="M80 512 C244 516 334 706 512 706 C690 706 780 516 944 512 C780 543 690 650 512 656 C334 650 244 543 80 512 Z"/>
     </g>
     <g class="core-pulse">
-      <circle cx="512" cy="512" r="52" fill="url(#core)" opacity="0.95"/>
+      <circle class="core-glow" cx="512" cy="512" r="52" fill="url(#core)" opacity="0.95"/>
       <circle cx="512" cy="512" r="18" fill="#ffffff" opacity="0.94"/>
     </g>
   </g>
