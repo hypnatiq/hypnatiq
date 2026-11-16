@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./github-profile-hero.svg?v=b1962d43" alt="Hanzley Philippeaux GitHub introduction with the Hypnatiq eye-vortex logo" width="100%">
+  <img src="./github-profile-hero.svg?v=c3b329da" alt="Hanzley Philippeaux GitHub introduction with the Hypnatiq eye-vortex logo" width="100%">
 </p>
 
 
