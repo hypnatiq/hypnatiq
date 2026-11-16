@@ -2,7 +2,6 @@
   <img src="./github-profile-hero.svg" alt="Hanzley Philippeaux GitHub introduction with the Hypnatiq eye-vortex logo" width="100%">
 </p>
 
-# Hanzley Philippeaux
 
 I work in endpoint and systems support, and I am building deeper hands-on networking skills through routing, switching, packet analysis, segmentation, and network-security projects.
 
