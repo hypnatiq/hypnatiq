@@ -52,8 +52,9 @@
 
   <rect width="1200" height="420" rx="18" fill="url(#background)"/>
   <text x="40" y="185" fill="#f4f7fb" class="name">Hanzley Philippeaux</text>
-  <text x="42" y="235" fill="#81b9ff" class="role">Endpoint and systems support.</text>
-  <text x="42" y="269" fill="#d9e2ed" class="role">Networking and software projects.</text>
+  <text x="42" y="235" fill="#81b9ff" class="role">Endpoint support.</text>
+  <text x="42" y="269" fill="#81b9ff" class="role">Network investigation.</text>
+  <text x="42" y="303" fill="#81b9ff" class="role">Practical automation.</text>
 
   <g transform="translate(695 -46) scale(0.50)" filter="url(#eye-shadow)">
     <g class="vortex" clip-path="url(#cavity)" mask="url(#circular-core)" fill="url(#blade)">
