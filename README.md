@@ -1,6 +1,6 @@
 # Hanzley Philippeaux
 
-I work in endpoint and systems support, and I am building toward a junior network engineer role. I connect my production support experience with deeper hands-on work in routing, switching, packet analysis, segmentation, and network security.
+I work in endpoint and systems support, and I am building deeper hands-on networking skills through routing, switching, packet analysis, segmentation, and network-security projects.
 
 My production experience includes Windows endpoint troubleshooting, Microsoft 365 and identity support, Cisco Meraki investigation, DHCP and DNS troubleshooting, cabling and Ethernet pass-through loops, Verifone M400 payment-terminal connectivity, endpoint lifecycle coordination, PuTTY and SSH account support, knowledge-base writing, more than 2,000 documented tickets, and new-hire training.
 
@@ -20,7 +20,7 @@ The project shows how I separate local facts from third-party reports, document 
 
 My Enterprise Home Network Virtual Lab is a working virtual version of the network I plan to implement in my home. I use it to practice Windows Server identity, DNS, Group Policy, Windows LAPS, OPNsense segmentation, FreeRADIUS EAP-TLS decisions, client isolation, and PXE service testing while I continue acquiring the physical hardware.
 
-The virtual design models the firewall, managed switch, wireless access point, server, backup storage, UPS, and wired connections planned for the later physical build. Exact new product models are still being selected. I document the architecture, failed tests, corrections, screenshots, hashes, and acceptance results so the lab can guide that installation.
+The first physical build plan uses a TP-Link ER605 V2 router, SG2008P managed PoE switch, OC300 controller, and EAP610 wireless access point. Those devices remain planned and unpurchased while I verify the household connection, hardware revisions, firmware compatibility, cabling, port capacity, and recovery plan. I document the architecture, failed tests, corrections, screenshots, hashes, and accepted results so the virtual lab can guide the later installation.
 
 ### [AstrasGZ Network Traffic Analysis Case Study](https://github.com/hypnatiq/network-traffic-analysis-case-study)
 
@@ -41,6 +41,9 @@ I do not treat generated output as proof. I keep requirements, privacy limits, e
 ## Other public work
 
 - [AI-Assisted Technical Project Workflow](https://github.com/hypnatiq/ai-assisted-technical-project-workflow) documents the evidence and approval process I use across projects.
+- [HypBot Discord Server Builder](https://github.com/hypnatiq/hypbot-discord-server-builder) explains how I stage, verify, and recover Discord server changes while keeping live credentials, IDs, member data, and private source out of the public repository.
+- [Hypnatiq DPI Calibrator](https://github.com/hypnatiq/hypnatiq-dpi-calibrator) documents my Windows calibration method, Raw Input checks, settings recovery, repeated testing, and the limits of a personal recommendation.
+- [Project Handoff Verification Toolkit](https://github.com/hypnatiq/project-handoff-verification-toolkit) contains the PowerShell scripts I use to create SHA-256 manifests, verify transferred folders, and compare returned project trees.
 - [Rapid Trigger for GunZ](https://github.com/hypnatiq/rapid-trigger-for-gunz) is a community guide and testing notebook that preserves baselines, controlled changes, rollback points, and personal-result boundaries. It remains on GitHub but is not part of my current resume or LinkedIn project lineup.
 
 ## Current direction
