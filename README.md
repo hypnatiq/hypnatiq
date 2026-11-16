@@ -1,10 +1,14 @@
+<p align="center">
+  <img src="./github-profile-hero.svg" alt="Hanzley Philippeaux GitHub introduction with the Hypnatiq eye-vortex logo" width="100%">
+</p>
+
 # Hanzley Philippeaux
 
 I work in endpoint and systems support, and I am building deeper hands-on networking skills through routing, switching, packet analysis, segmentation, and network-security projects.
 
 My production experience includes Windows endpoint troubleshooting, Microsoft 365 and identity support, Cisco Meraki investigation, DHCP and DNS troubleshooting, cabling and Ethernet pass-through loops, Verifone M400 payment-terminal connectivity, endpoint lifecycle coordination, PuTTY and SSH account support, knowledge-base writing, more than 2,000 documented tickets, and new-hire training.
 
-I use GitHub to show how I investigate problems, test changes, document evidence, and state where the evidence stops.
+I use GitHub to document what I built, how I tested it, and what the results showed.
 
 The projects below are some of the work I have chosen to feature. To view all of my public repositories, visit [my repositories page](https://github.com/hypnatiq?tab=repositories).
 
@@ -14,7 +18,7 @@ The projects below are some of the work I have chosen to feature. To view all of
 
 HypNO is my Windows endpoint and network-investigation project. It connects live TCP and UDP activity and imported packet captures to process, service, executable, publisher, signature, destination, and provider context when that evidence is available.
 
-The project shows how I separate local facts from third-party reports, document uncertainty, and support a reviewed Allow or Block decision. After the user decides, HypNO can write a reversible rule to Windows Defender Firewall with Advanced Security and record the change.
+During each investigation, I keep confirmed local activity separate from third-party reports. The user reviews the findings and chooses Allow or Block. HypNO can then write a reversible rule to Windows Defender Firewall with Advanced Security and record the change.
 
 ### [Enterprise Home Network Virtual Lab](https://github.com/hypnatiq/enterprise-home-network-virtual-lab)
 
@@ -26,7 +30,7 @@ The first physical build plan uses a TP-Link ER605 V2 router, SG2008P managed Po
 
 I created this case study to understand what traffic left my Windows PC while I used the AstrasGZ client. I captured and reviewed three controlled sessions, imported 120,656 packet records into a local Flask and SQLite viewer, and filtered the evidence by protocol, port, destination, and time.
 
-The result is a repeatable investigation method and a clear record of what was visible, what remained unresolved, and which evidence would be needed next.
+The case study records what the capture showed, what it could not confirm, and what I would test next.
 
 ### [IT Support Documentation Portfolio](https://github.com/hypnatiq/it-support-documentation-portfolio)
 
@@ -44,12 +48,10 @@ I do not treat generated output as proof. I keep requirements, privacy limits, e
 - [HypBot Discord Server Builder](https://github.com/hypnatiq/hypbot-discord-server-builder) explains how I stage, verify, and recover Discord server changes while keeping live credentials, IDs, member data, and private source out of the public repository.
 - [Hypnatiq DPI Calibrator](https://github.com/hypnatiq/hypnatiq-dpi-calibrator) documents my Windows calibration method, Raw Input checks, settings recovery, repeated testing, and the limits of a personal recommendation.
 - [Project Handoff Verification Toolkit](https://github.com/hypnatiq/project-handoff-verification-toolkit) contains the PowerShell scripts I use to create SHA-256 manifests, verify transferred folders, and compare returned project trees.
-- [Rapid Trigger for GunZ](https://github.com/hypnatiq/rapid-trigger-for-gunz) is a community guide and testing notebook that preserves baselines, controlled changes, rollback points, and personal-result boundaries. It remains on GitHub but is not part of my current resume or LinkedIn project lineup.
+- [Rapid Trigger for GunZ](https://github.com/hypnatiq/rapid-trigger-for-gunz) is a community guide and personal testing notebook. It records starting settings, controlled changes, test results, and rollback points. It remains on GitHub but is not part of my current resume or LinkedIn project lineup.
 
 ## Current direction
 
 I am continuing to build practical depth in routing, switching, TCP/IP, DHCP, DNS, firewall policy, packet analysis, network access control, and network troubleshooting. I will add certifications when they are earned, not before.
 
-These repositories show how I apply my production support experience while building deeper practical skills in network engineering.
-
-
+I use these projects to build on my support experience and continue developing practical network engineering skills.
